@@ -11,12 +11,20 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>{
     IBOutlet NSStatusItem *statusItem;
-    NSButton *dockIconSelector;
+    IBOutlet NSView *timeView;
+    IBOutlet NSTextField *timeField;
+    IBOutlet NSButton *timeButton;
+    IBOutlet NSButton *updateButton;
     
+    NSInteger year;
+    NSInteger month;
+    NSInteger day;
+    NSString *updateUrl;
 }
-@property (assign) IBOutlet NSPopover *popover;
-@property (assign) IBOutlet NSWindow *window;
-@property (assign) IBOutlet WebView *webView;
+@property (weak) IBOutlet NSPopover *popover;
+@property (weak) IBOutlet NSWindow *window;
+@property (weak) IBOutlet WebView *webView;
 - (IBAction)openSina:(id)sender;
-
+- (IBAction)openHome:(id)sender;
+- (IBAction)updateClick:(id)sender;
 @end

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04580F2C15DA2A330023BB41 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 04580F2B15DA2A330023BB41 /* home.png */; };
+		04580F3F15DA3C470023BB41 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 04580F3315DA3C470023BB41 /* readme.txt */; };
+		04580F4015DA3C470023BB41 /* THDispatchQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 04580F3515DA3C470023BB41 /* THDispatchQueue.m */; };
+		04580F4115DA3C470023BB41 /* THDownloadWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 04580F3715DA3C470023BB41 /* THDownloadWebService.m */; };
+		04580F4215DA3C470023BB41 /* THPostWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 04580F3915DA3C470023BB41 /* THPostWebService.m */; };
+		04580F4315DA3C470023BB41 /* THWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 04580F3C15DA3C470023BB41 /* THWebService.m */; };
+		04580F4415DA3C470023BB41 /* THWebUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 04580F3E15DA3C470023BB41 /* THWebUtility.m */; };
 		E75748B4153FBD8700C2E5E1 /* calendar.icns in Resources */ = {isa = PBXBuildFile; fileRef = E75748B3153FBD8700C2E5E1 /* calendar.icns */; };
 		E7574969153FECA200C2E5E1 /* status.png in Resources */ = {isa = PBXBuildFile; fileRef = E7574949153FECA200C2E5E1 /* status.png */; };
 		E757496A153FECA200C2E5E1 /* status1.png in Resources */ = {isa = PBXBuildFile; fileRef = E757494A153FECA200C2E5E1 /* status1.png */; };
@@ -54,6 +61,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04580F2B15DA2A330023BB41 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		04580F3315DA3C470023BB41 /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		04580F3415DA3C470023BB41 /* THDispatchQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THDispatchQueue.h; sourceTree = "<group>"; };
+		04580F3515DA3C470023BB41 /* THDispatchQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THDispatchQueue.m; sourceTree = "<group>"; };
+		04580F3615DA3C470023BB41 /* THDownloadWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THDownloadWebService.h; sourceTree = "<group>"; };
+		04580F3715DA3C470023BB41 /* THDownloadWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THDownloadWebService.m; sourceTree = "<group>"; };
+		04580F3815DA3C470023BB41 /* THPostWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THPostWebService.h; sourceTree = "<group>"; };
+		04580F3915DA3C470023BB41 /* THPostWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THPostWebService.m; sourceTree = "<group>"; };
+		04580F3A15DA3C470023BB41 /* THWebDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THWebDefine.h; sourceTree = "<group>"; };
+		04580F3B15DA3C470023BB41 /* THWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THWebService.h; sourceTree = "<group>"; };
+		04580F3C15DA3C470023BB41 /* THWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THWebService.m; sourceTree = "<group>"; };
+		04580F3D15DA3C470023BB41 /* THWebUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THWebUtility.h; sourceTree = "<group>"; };
+		04580F3E15DA3C470023BB41 /* THWebUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THWebUtility.m; sourceTree = "<group>"; };
 		E75748B3153FBD8700C2E5E1 /* calendar.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = calendar.icns; sourceTree = "<group>"; };
 		E7574949153FECA200C2E5E1 /* status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status.png; sourceTree = "<group>"; };
 		E757494A153FECA200C2E5E1 /* status1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status1.png; sourceTree = "<group>"; };
@@ -120,11 +140,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04580F3215DA3C470023BB41 /* THWebService */ = {
+			isa = PBXGroup;
+			children = (
+				04580F3315DA3C470023BB41 /* readme.txt */,
+				04580F3415DA3C470023BB41 /* THDispatchQueue.h */,
+				04580F3515DA3C470023BB41 /* THDispatchQueue.m */,
+				04580F3615DA3C470023BB41 /* THDownloadWebService.h */,
+				04580F3715DA3C470023BB41 /* THDownloadWebService.m */,
+				04580F3815DA3C470023BB41 /* THPostWebService.h */,
+				04580F3915DA3C470023BB41 /* THPostWebService.m */,
+				04580F3A15DA3C470023BB41 /* THWebDefine.h */,
+				04580F3B15DA3C470023BB41 /* THWebService.h */,
+				04580F3C15DA3C470023BB41 /* THWebService.m */,
+				04580F3D15DA3C470023BB41 /* THWebUtility.h */,
+				04580F3E15DA3C470023BB41 /* THWebUtility.m */,
+			);
+			path = THWebService;
+			sourceTree = "<group>";
+		};
 		E7574948153FEC4500C2E5E1 /* status */ = {
 			isa = PBXGroup;
 			children = (
 				E7890D601540021600D57A9F /* quit.png */,
 				E7DF5B87153FFC6000D685C4 /* sina.png */,
+				04580F2B15DA2A330023BB41 /* home.png */,
 				E7574949153FECA200C2E5E1 /* status.png */,
 				E757494A153FECA200C2E5E1 /* status1.png */,
 				E757494B153FECA200C2E5E1 /* status2.png */,
@@ -203,6 +243,7 @@
 		E77057781538844800AE3356 /* calendar */ = {
 			isa = PBXGroup;
 			children = (
+				04580F3215DA3C470023BB41 /* THWebService */,
 				E77057841538844800AE3356 /* AppDelegate.h */,
 				E77057851538844800AE3356 /* AppDelegate.m */,
 				E77057871538844800AE3356 /* MainMenu.xib */,
@@ -251,7 +292,7 @@
 		E77057651538844700AE3356 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0440;
 			};
 			buildConfigurationList = E77057681538844700AE3356 /* Build configuration list for PBXProject "calendar" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -315,6 +356,8 @@
 				E7574988153FECA200C2E5E1 /* status31.png in Resources */,
 				E7DF5B88153FFC6000D685C4 /* sina.png in Resources */,
 				E7890D611540021600D57A9F /* quit.png in Resources */,
+				04580F2C15DA2A330023BB41 /* home.png in Resources */,
+				04580F3F15DA3C470023BB41 /* readme.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +370,11 @@
 			files = (
 				E770577F1538844800AE3356 /* main.m in Sources */,
 				E77057861538844800AE3356 /* AppDelegate.m in Sources */,
+				04580F4015DA3C470023BB41 /* THDispatchQueue.m in Sources */,
+				04580F4115DA3C470023BB41 /* THDownloadWebService.m in Sources */,
+				04580F4215DA3C470023BB41 /* THPostWebService.m in Sources */,
+				04580F4315DA3C470023BB41 /* THWebService.m in Sources */,
+				04580F4415DA3C470023BB41 /* THWebUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +413,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -391,6 +440,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -408,6 +458,8 @@
 		E770578D1538844800AE3356 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "calendar/calendar-Prefix.pch";
 				INFOPLIST_FILE = "calendar/calendar-Info.plist";
@@ -419,6 +471,8 @@
 		E770578E1538844800AE3356 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "calendar/calendar-Prefix.pch";
 				INFOPLIST_FILE = "calendar/calendar-Info.plist";
